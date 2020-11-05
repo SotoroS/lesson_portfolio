@@ -19,24 +19,30 @@ body {
   background-position: center; 
 }
 
-.works-element__image {
-  width: 100%;
-  height: 240px;
-  background-size: 100%;
-  background-position: center; 
-  transition-duration: 2s;
-}
-  .works-element__image:hover {
-    background-size:120%;
-  }
-
+/* Раздел с работами  */
 .works {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
 
 .works-element {
-  border: 4px solid white;
+  margin-bottom: 2rem;
+}
+
+.works-element__image {
+  width: 100%;
+  height: 240px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+
+.works-element__desc {
+  font-size: small;
+}
+
+.works-element__link {
+  font-size: small;
 }
 
 .inline {
