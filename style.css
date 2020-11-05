@@ -22,19 +22,21 @@ body {
 .works-element__image {
   width: 100%;
   height: 240px;
-  background-size: cover;
+  background-size: 100%;
   background-position: center; 
+  transition-duration: 2s;
 }
+  .works-element__image:hover {
+    background-size:120%;
+  }
 
 .works {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  /* grid-gap: 5px; */
-  /* border: 1px solid black; */
 }
 
 .works-element {
-  /* border: 1px solid green; */
+  border: 4px solid white;
 }
 
 .inline {
@@ -47,4 +49,41 @@ body {
   color:#555;
   border-radius: 3px;
   padding: 2px;
+}
+
+.work-iphone {
+  height: 80px;
+  background-color: #CDD1DD;
+  padding: 10px;
+}
+
+.content {
+  position: relative;
+  margin-top: -5%;
+  width: 100%;
+  height: 240px;
+  background-size: cover;
+  background-position: center; 
+}
+
+.title {
+  text-align: center;
+  font-size: 28pt;
+  color: #7A7C82;
+}
+
+.works-iphone-element__image {
+  width: 100%;
+  height: 500pt;
+  background-size: cover;
+  background-position: center; 
+}
+.works-iphone-element__text {
+  width: 100%;
+  height: 500pt;
+  padding-top: 25%;
+  text-align: center;
+  vertical-align: middle;
+  font-size: 20pt;
+  color: #2F3032;
 }
