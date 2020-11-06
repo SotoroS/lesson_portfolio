@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'Font';
+    src: url('/fonts/font.ttf');
+}
+
+body {
+  font-family: Font;
+}
+
+.wrap {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.content {
+  position: relative;
+  margin-top: -5%;
+  width: 100%;
+  height: 240px;
+  background-size: cover;
+  background-position: center; 
+}
+
+.task {
+  color: #1A1B1E;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.task-title {
+  font-size: 28pt;
+  font-weight: bold;
+}
+
+.result {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5px;
+}
+
+@media (max-width: 425px) { /* Для цветных экранов */
+  .result {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+  }
+}
+
+.result-work {
+  width: 100%;
+  height: 400px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+
+.tag {
+  display: inline-block;
+  background-color: #e4e4e4;
+  color:#555;
+  border-radius: 3px;
+  padding: 2px;
+}
