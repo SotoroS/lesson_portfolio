@@ -7,14 +7,8 @@ body {
   font-family: Font;
 }
 
-.wrap {
-  max-width: 1280px;
-  margin: 0 auto;
-}
-
 .avatar {
-  width: 150px;
-  height: 200px;
+  height: 360px;
   background-size: cover;
   background-position: center; 
 }
@@ -92,4 +86,8 @@ body {
   vertical-align: middle;
   font-size: 20pt;
   color: #2F3032;
+}
+
+.person-info {
+  min-height: 32px;
 }
